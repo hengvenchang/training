@@ -1,11 +1,25 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Traning.Data;
+using Microsoft.EntityFrameworkCore;
+using Training.Repositories;
+using Traning.Mappings;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>();
+
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<DBContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("databaseConnectionString")));
+
 
 var app = builder.Build();
 
