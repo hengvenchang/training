@@ -1,19 +1,23 @@
 ﻿
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Training.Repositories;
-using Traning.Data;
-using AutoMapper;
-using Traning.Models.DTO;
-using Traning.Models.Domain;
 using Traning.CustomActionFilters;
+using Traning.Data;
+using Traning.Models.Domain;
+using Traning.Models.DTO;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Traning.Controllers
 
 {
-    [Route("api/[controller]")]
-    public class RegionsController : Controller
+
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiController]
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
+    public class RegionsController : ControllerBase
     {
 
         private readonly DBContext dbContext;
@@ -32,6 +36,7 @@ namespace Traning.Controllers
 
         // GET ALL REGIONS 
         // GET: https://localhost:portnumber/api/regions
+        [MapToApiVersion("1.0")]
         [HttpGet]
         //[Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetAll()
@@ -39,7 +44,8 @@ namespace Traning.Controllers
             // Get Data From Database - Domain models
             var regionsDomain = await regionRepository.GetAllAsync();
 
-            // Return DTOs
+
+            // Return DTO
             return Ok(mapper.Map<List<RegionDto>>(regionsDomain));
         }
 
