@@ -71,3 +71,7 @@ Adding log insight information for debugging: Demonstrates a user-centric approa
 Nimble
 Iterative approach in project management and software architecture studies: Exemplifies nimbleness in adapting and learning from experiences.
 Adaptive development of Microsite’s functionalities: Shows agility in responding to changing market and customer needs.
+
+This year, I've focused on integrating technology across our platforms, enhancing customer experiences, and pursuing continuous learning. Key achievements include optimizing our Sales Platform, developing Microsite's payment portals, and streamlining processes with CI/CD implementations.
+
+My performance reflects our core values: ambition in new product development and upskilling, courage in adopting innovative technologies, curiosity in exploring customer-centric solutions, empathy in prioritizing customer needs, and nimbleness in adapting to new challenges. These efforts have significantly contributed to our strategic objectives and long-term goals.
