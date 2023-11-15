@@ -1,0 +1,50 @@
+Objective one:
+Convergence of Technology Platforms across CLM for faster Time-to-Market and consistent customer experience.
+ 
+1. Sales Platform - Sales and Partners
+- Optimized WebPos's Lead backend system for multi versioning to improve efficiency and scalability                          
+ 
+2. Customer Self Servicing
+- Development of Microsite's payment portal platform to enhance customer experience, For improved performance and scalability
+ 
+Others:
+- Collaborated with cross-functional teams to implement a Continue integration and Continue delivery (CI/CD) for faster deployment and reduce human errors for Microsite.
+- Establish a principle and clean structure for standard development which helps enhance development experience for safer changes and easy maintenance to product and payment service on Microsite.
+- Incorporate automate testing to payment and product service. This will ensure new changes doesn't effect the old, Increase confidence in adding new features  on Microsite.
+- Incorporate a new GRPC protocol to Microsite system which enhance the communication between each system that lead to faster response time for customer and user experience. 
+ 
+Objective 2:
+Deliver Sustainable & Profitable Growth
+ 
+- Development of Alternative Saving Product to Webpos [Start late 2023].
+ 
+Objective 3:
+Enhance Customer Segmentation & Experience
+ 
+- Adding a new feature call payment portal that enable user to access to unique link for a Multi-device payment on Microsite. 
+- Develop Microsite's a bridge payment service between Pru pay which enhance on top of Pru pay to display a better information for customer.
+- Adding additional log insight information for a better debug experience in case payment from user failed on Microsite.
+ 
+Objective 4:
+Strategic Expansion & Capability Building
+ 
+- Development of Microsite's Billing payment portal for premium payment [UAT]
+ 
+Objective 5:
+Upskilling
+ 
+- An in-depth, step-by-step guide to classes, interfaces and object-oriented programming (OOP) with C#
+Status: Complete
+ 
+- Master C# fundamentals in 6 hours - The most popular course with 50,000+ students, packed with tips 
+and exercises!
+Status: Completed
+ 
+- Use C# and Build an ASP.NET Core Web API with Entity Framework Core, SQL Server, Authentication 
+& Authorization | .NET 7
+Status: Completed   
+ 
+- Project Management Fundamentals: Run projects effectively                    
+status: in progress [Finish Before 2024]
+- Software Architecture & System Design Practical Case Studies
+status: in progress [Finish Before 2024]
