@@ -51,22 +51,23 @@ status: in progress [Finish Before 2024]
 
 
 Ambitious
-Our business is competitive. We push ourselves and each other to greatness, but not at all costs. Being a team player and doing the right thing come first.
+Convergence of Technology Platforms across CLM: Shows ambition in seeking to enhance customer experience and market responsiveness through technological integration.
+Development of Alternative Saving Product to Webpos: Reflects ambition in expanding product offerings and entering new markets.
+Upskilling through new technology and Project Management courses: Indicates a commitment to continual learning and excellence, aligning with the ethos of pushing for improvement.
 
-Comment
 Courageous
-Prudential’s success and culture Belongs to all of us – it’s our Shared legacy. We do the right thing and bring our full selves to work to build it together.
-
-Comment
-
+Incorporation of new GRPC protocol and automated testing: Demonstrates courage in adopting new technologies to improve system communication and reliability.
+Continuous Integration and Delivery (CI/CD) implementation: Shows a bold approach in streamlining deployment processes, reducing errors, and enhancing efficiency.
+Development of Microsite’s billing and payment portals: Exhibits courage in taking on complex projects that directly impact customer experience.
 
 Curious
-The world is changing faster than ever. No one has all the answers. We are humble and always listen and seek to learn and understand.
+Exploration of new features on Microsite like Multi-device payment and bridge payment service: Reflects curiosity in seeking innovative solutions to improve customer interaction and experience.
+Development experience enhancements: Shows a commitment to learning and adapting for better maintenance and safer changes in product and payment services.
 
-Comment
 Empathetic
-There’s an age-old wisdom in walking a mile in another’s shoes. We do that every day, whether it’s with our customers or colleagues.
+Enhancing Customer Segmentation & Experience: Indicates empathy by focusing on understanding and meeting diverse customer needs.
+Adding log insight information for debugging: Demonstrates a user-centric approach, ensuring any payment issues are quickly resolved, highlighting empathy for customer challenges.
 
-Comment
 Nimble
-Being agile and adaptive is trending. We approach our work iteratively, with carefully-designed experiments that help us fail fast and fail forward.
+Iterative approach in project management and software architecture studies: Exemplifies nimbleness in adapting and learning from experiences.
+Adaptive development of Microsite’s functionalities: Shows agility in responding to changing market and customer needs.
